@@ -2,8 +2,8 @@ package com.gpn.modelo;
 
 public class EscritorCSV extends EscritorArquivo {
 
-	public EscritorCSV(String caminho, String nomeArquivo, String[] dados) throws Exception {
-		super(caminho, nomeArquivo, "csv", dados);
+	public EscritorCSV(String caminho, String nomeArquivo, String extensao, String[] dados) throws Exception {
+		super(caminho, nomeArquivo, extensao, dados);
 	}
 
 	@Override
